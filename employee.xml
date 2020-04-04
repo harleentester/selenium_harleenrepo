@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="PragraTestSuite">
+    <test name="frontend">
+        <groups>
+            <run>
+                <include name="functional"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="Employeetest"></class>
+        </classes>
+    </test>
+</suite>
